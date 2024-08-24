@@ -12,13 +12,15 @@ body {
 /* } */ 
 
 /* Header Styles */
+a {
+     color :	#f3ce1f;
+    }
 #header {
     padding: 20px;
 }
 
 #header img {
-    width: 100px; 
-    height: 100px; 
+    width: 110px;     height: 125px; 
 /*    border-radius: 50%; */
 /*margin-bottom: 10px; */
     border: 4px solid white;
@@ -53,7 +55,7 @@ body {
 #social-links a {
     text-decoration: none; 
     margin: 0 10px; 
-    /* color: black;  */
+     color: yellow;  /* #ffffff; */
 }
 
 #social-links a:hover {
