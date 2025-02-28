@@ -21,13 +21,14 @@ Technologies Used
 
 Project Structure
 ---------------
+```js
 /public
   |- index.html      # Main HTML file
   |- style.css       # CSS styles
   |- img1.jpeg       # Profile picture
   |- freejs.png      # Footer image
   |- resume.pdf      # Downloadable resume
-
+```
 Notable Projects Featured
 -----------------------
 1. Hasty Server (1500+ Downloads)
