@@ -16,6 +16,7 @@ a {
      color :	#f3ce1f;
     }
 #header {
+    margin-top: 40px;
     padding: 20px;
 }
 
@@ -76,6 +77,23 @@ footer {
     position: fixed; 
     bottom: 0; 
     left: 0;
+}
+
+/* Job Banner Styles */
+#job-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#job-banner p {
+    color: black;
+    margin: 0;
 }
 
 /* Responsive Styles */
