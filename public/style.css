@@ -112,3 +112,21 @@ footer {
         width: 100%; /* Make header full width */
     }
 }
+
+#videos {
+    margin-top: 20px;
+}
+
+#videos ol {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
+#videos a {
+    color: #f3ce1f; /* Match existing link color */
+    text-decoration: none;
+}
+
+#videos a:hover {
+    text-decoration: underline;
+}
