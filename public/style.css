@@ -16,7 +16,7 @@ a {
      color :	#f3ce1f;
     }
 #header {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 20px;
 }
 
@@ -35,9 +35,28 @@ a {
     padding: 20px;
 }
 
+/* Left column (about + career + blogs) */
+#left-col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* About Styles */
+#about {
+    margin-bottom: 20px;
+}
+
+/* Career Styles */
+#career {
+    margin-bottom: 20px;
+}
+
+#career ul {
+    padding-left: 20px;
+}
+
 /* Blog Styles */
 #blogs {
-    flex: 1; 
     margin-right: 10px; 
 }
 
@@ -96,13 +115,58 @@ footer {
     margin: 0;
 }
 
+/* Career job entry Styles */
+.job-entry {
+    margin-bottom: 24px;
+    padding-left: 10px;
+    border-left: 2px solid #f3ce1f;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 2px;
+}
+
+.job-date {
+    color: #aaaaaa;
+    font-size: 0.9em;
+}
+
+.job-role {
+    font-style: italic;
+    color: #cccccc;
+    margin-bottom: 4px;
+}
+
+.job-entry ul {
+    margin: 4px 0 0 0;
+    padding-left: 20px;
+}
+
+/* Highlights Styles */
+#highlights {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+#highlights ul {
+    padding-left: 20px;
+}
+
+#highlights li {
+    margin-bottom: 8px;
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
     #container {
         flex-direction: column; 
     }
     
-    #blogs, #projects {
+    #blogs, #projects, #left-col {
         flex: none; 
         width: 100%; 
         margin: 0; 
