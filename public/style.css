@@ -35,9 +35,28 @@ a {
     padding: 20px;
 }
 
+/* Left column (about + career + blogs) */
+#left-col {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* About Styles */
+#about {
+    margin-bottom: 20px;
+}
+
+/* Career Styles */
+#career {
+    margin-bottom: 20px;
+}
+
+#career ul {
+    padding-left: 20px;
+}
+
 /* Blog Styles */
 #blogs {
-    flex: 1; 
     margin-right: 10px; 
 }
 
@@ -102,7 +121,7 @@ footer {
         flex-direction: column; 
     }
     
-    #blogs, #projects {
+    #blogs, #projects, #left-col {
         flex: none; 
         width: 100%; 
         margin: 0; 
